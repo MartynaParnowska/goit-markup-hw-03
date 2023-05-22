@@ -1,0 +1,224 @@
+.body {
+    font-family: "Roboto", sans-serif;
+    color: #212121
+}
+
+.logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 20;
+    letter-spacing: 0, 03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logo2 {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 20;
+    letter-spacing: 0, 03em;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-header {
+    font-family: "Roboto";
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.framework {
+    background: #2F303A;
+    width: 1600px;
+    color: #FFFFFF;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 1, 36;
+    letter-spacing: 0, 06em;
+}
+
+.lorem-ipsum {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0, 03em;
+    color: #212121
+}
+
+.team {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36 px;
+    line-height: 1, 16;
+    letter-spacing: 0, 03em;
+    background: #F5F4FA;
+    width: 1600px;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+h3 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1, 9;
+    letter-spacing: 0, 03em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto";
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+}
+
+p {
+    font-style: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 0, 03em;
+    color: #757575;
+}
+
+
+.link-agency:hover,
+.link-agency:focus {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+    color: #2196F3
+}
+
+.buttons-style {
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1, 6;
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+    background: #F5F4FA;
+    border: #2196F3;
+    border-radius: 4px;
+    padding: 6px 22px;
+
+}
+
+.buttons-style:hover {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+.button-style:focus {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+.button-index {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1, 8;
+    color: #ffffff;
+    background: #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
+    width: 200px;
+    height: 50px;
+    left: 700 px;
+    top: 430 px;
+}
+
+.button-index:hover {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+.button-index:focus {
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+.footer {
+    background: #2F303A;
+    width: 1600px;
+}
+
+.logo-footer {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 20;
+    letter-spacing: 0, 03em;
+    color: #ffffff;
+    text-decoration: none;
+    width: 145 px;
+    height: 31 px;
+    left: 215 px;
+    top: 2157 px;
+}
+
+.contact {
+    font-family: "Roboto";
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1, 14;
+    font-weight: 500px;
+    letter-spacing: 0, 02em;
+}
+
+.contact-footer {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1, 7;
+    letter-spacing: 0, 03em;
+    color: rgba(255, 255, 255, 0.6);
+    background: #2F303A;
+}
+
+.adress {
+    font-family: "Roboto";
+    background: #2F303A;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1, 7;
+    font-weight: 400px;
+    letter-spacing: 0, 03em;
+    font-style: normal;
+}
