@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 46 em;
+
+}
+
+.contact {
+    display: flex;
+
+
+    .mail {
+        margin-right: 227px;
+    }
+
+
+}
+
 .body {
     font-family: "Roboto", sans-serif;
     color: #212121
@@ -18,9 +40,6 @@
     color: #2196F3;
     text-decoration: none;
     width: 145 px;
-    padding: 24px 1240px 25 px 215 px;
-
-
 }
 
 .logo2 {
@@ -41,8 +60,9 @@
     line-height: 1, 14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    display: inline;
+    display: flex;
     justify-content: space-between;
+
 }
 
 .container {
@@ -74,8 +94,6 @@
     height: 120;
     text-align: center;
     margin: 0 auto;
-    flex-wrap: wrap;
-
 
 }
 
@@ -86,6 +104,10 @@
     letter-spacing: 0, 03em;
     color: #212121;
 
+}
+
+.lorem-ipsum1 {
+    display: flex;
 }
 
 .whatwedo {
