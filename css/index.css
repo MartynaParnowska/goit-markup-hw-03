@@ -7,23 +7,16 @@
 .header {
     display: flex;
     align-items: center;
+    justify-content: space-between
 }
 
 .nav {
     display: flex;
-    gap: 46 em;
 
 }
 
 .contact {
     display: flex;
-
-
-    .mail {
-        margin-right: 227px;
-    }
-
-
 }
 
 .body {
@@ -61,15 +54,12 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     display: flex;
-    justify-content: space-between;
-
 }
 
 .container {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-
 }
 
 .framework {
@@ -86,6 +76,7 @@
     letter-spacing: 0, 06em;
     text-align: center;
     text-transform: uppercase;
+
 }
 
 .tagline {
@@ -94,6 +85,8 @@
     height: 120;
     text-align: center;
     margin: 0 auto;
+    justify-content: center;
+    justify-content: flex-end;
 
 }
 
@@ -103,7 +96,7 @@
     line-height: 1, 14;
     letter-spacing: 0, 03em;
     color: #212121;
-
+    justify-content: space-between;
 }
 
 
@@ -114,6 +107,8 @@
     line-height: 1, 16;
     text-align: center;
     letter-spacing: 0, 03em;
+    flex-direction: row;
+
 }
 
 .team {
@@ -124,6 +119,9 @@
     letter-spacing: 0, 03em;
     background: #F5F4FA;
     width: 1600px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 h2 {
@@ -134,6 +132,10 @@ h2 {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    justify-content: space-between;
+    display: flex;
+
+
 }
 
 h3 {
@@ -146,7 +148,10 @@ h3 {
 
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
+
 
 a {
     text-decoration: none;
@@ -156,6 +161,7 @@ a {
     font-size: 14px;
     line-height: 1, 14;
     letter-spacing: 0.02em;
+
 }
 
 p {
@@ -165,12 +171,14 @@ p {
     line-height: 1, 7;
     letter-spacing: 0, 03em;
     color: #757575;
+    display: flex;
+    align-items: flex-start;
 }
 
-.second-page {
 
-    background: #FFFFFF;
-    border: 1px solid #EEEE;
+.second-page {
+    display: flex;
+    align-content: flex-start;
 }
 
 .link-agency:hover,
@@ -238,6 +246,12 @@ p {
 .button-index:focus {
     color: #ffffff;
     background-color: #2196F3;
+}
+
+.buttons-portfolio {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 }
 
 .footer {
