@@ -63,11 +63,12 @@
 }
 
 .hero {
-    background-size: cover;
+    it background-size: cover;
     padding: 200px 0;
     max-width: 1600px;
     height: 600px;
     margin: 0 auto;
+
 }
 
 .tagline {
