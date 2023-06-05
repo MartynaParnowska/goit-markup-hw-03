@@ -7,16 +7,24 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between
+
 }
 
 .nav {
     display: flex;
+    justify-content: space-around;
 
+}
+
+.webstudio {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .contact {
     display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 .body {
@@ -54,6 +62,8 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     display: flex;
+    justify-content: flex-start;
+
 }
 
 .container {
@@ -63,7 +73,7 @@
 }
 
 .hero {
-    it background-size: cover;
+    background-size: cover;
     padding: 200px 0;
     max-width: 1600px;
     height: 600px;
@@ -171,24 +181,30 @@ p {
 
 .second-page {
     display: flex;
-    align-content: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .link-agency:hover,
 .link-agency:focus {
     color: #2196F3;
     text-decoration: none;
+    display: flex;
+    margin: 32px 1094px 453px;
+
 }
 
 .link-portfolio:hover,
 .link-portfolio:focus {
     color: #2196F3;
     text-decoration: none;
+
 }
 
 .link-contact:hover,
 .link-contact:focus {
-    color: #2196F3
+    color: #2196F3;
+
 }
 
 .buttons-style {
