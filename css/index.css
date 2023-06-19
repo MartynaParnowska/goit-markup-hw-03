@@ -144,12 +144,14 @@
   color: #212121;
   font-weight: 700;
   background: #f5f4fa;
+  height: 648px;
 }
 
 .our-team {
   text-align: center;
   margin-top: 94px;
   margin-bottom: 50px;
+  font-weight: 700;
 }
 .ourteam-pic {
   display: flex;
@@ -157,21 +159,18 @@
   justify-content: space-between;
   list-style: none;
   margin-top: 94px;
+  margin-bottom: 94px;
   gap: 30px;
 }
-.figure {
-  background: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-}
-.figurecaption {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-  display: flex;
-  justify-content: center;
+
+.name {
+  text-align: center;
   margin-top: 30px;
+  margin-bottom: 10px;
+}
+.job {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 a {
