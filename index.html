@@ -16,48 +16,43 @@
 </head>
 
 <body>
-    <header>
-        <div class="container header">
-            <a class="logo" href="./index.html"><span class="logo">Web</span><span class="logo2">Studio</span></a>
-            <nav class="nav">
-                <ul class="nav-header">
-                    <li>
-                        <a class="link-agency" href="#">Agencja</a>
-                    </li>
-                    <li>
-                        <a class="link-portfolio" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="link-contact" href="#">Kontakt</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <ul>
-            <div class="contact">
-                <li><a class="mail" href="info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="phone" href="tel:+48111111111">+48 111 111 111</a></li>
+    <header class="header">
+        <div class="container header_container">
+            <div class="header_left-side">
+                <a class="logo" href="./index.html"><span class="logo-highlight">Web</span>Studio</a>
+                <nav class="nav">
+                    <ul class="nav-header">
+                        <li>
+                            <a class="nav-link" href="#">Agencja</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </ul>
         </div>
+        <ul class="contact">
+            <li><a class="mail" href="info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="phone" href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
     </header>
     <main>
         <section class="hero">
-            <div class="container">
-                <div class="tagline">
-                    <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                </div>
+            <div class="container hero_container">
+                    <h1 class="hero-headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
                 <button type="button" class="button-index">Zamów usługę</button>
             </div>
-            </div>
         </section>
-        <section>
+        <section class="lorem">
             <div class="container">
-                <div class="lorem-ipsum">
-                    <ul>
-                        <li>
-                            <h2>LOREM IPSUM</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate repellendus
+                    <ul class="lorem-list">
+                        <li class="lorem-elements">
+                            <h2 class="lorem-ipsum">LOREM IPSUM</h2>
+                            <p class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate repellendus
                                 laboriosam
                                 eligendi
                                 blanditiis laborum velit recusandae fugit nihil necessitatibus. Molestiae, eveniet
@@ -70,8 +65,8 @@
                         </li>
 
                         <li>
-                            <h2>LOREM IPSUM</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate repellendus
+                            <h2 class="lorem-ipsum"> LOREM IPSUM </h2>
+                            <p class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate repellendus
                                 laboriosam
                                 eligendi
                                 blanditiis laborum velit recusandae fugit nihil necessitatibus. Molestiae, eveniet
@@ -84,8 +79,8 @@
                         </li>
 
                         <li>
-                            <h2>LOREM IPSUM</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum mollitia fugiat
+                            <h2 class="lorem-ipsum">LOREM IPSUM</h2>
+                            <p class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam earum mollitia fugiat
                                 doloremque
                                 excepturi
                                 rerum consequatur dolor exercitationem, quae ratione, sed sequi suscipit ab vel
@@ -95,8 +90,8 @@
                         </li>
 
                         <li>
-                            <h2>LOREM IPSUM</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dolor repudiandae
+                            <h2 class="lorem-ipsum">LOREM IPSUM</h2>
+                            <p class="lorem-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi dolor repudiandae
                                 ab
                                 officiis,
                                 cum
@@ -109,59 +104,74 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="whatwedo">
             <div class="container">
-                <div class="whatwedo"></div>
-                <h2>Czym się zajmujemy</h2>
-                <ul>
-                    <li><img src="./images/box1.jpg" alt="laptop on the desk" width="370" height="294"></li>
-                    <li><img src="./images/box2.jpg" alt="laptop on the desk" width="370" height="294"></li>
-                    <li><img src="./images/box3.jpg" alt="touchpad with color screen" width="370" height="294">
+                <h2 class="whatwedo-text">Czym się zajmujemy</h2>
+                <ul class="whatwedo-pic">
+                    <li class="whatwedo-laptop"><img src="./images/box1.jpg" alt="laptop on the desk" width="370" height="294"></li>
+                    <li class="whatwedo-laptop"></li><img src="./images/box2.jpg" alt="laptop on the desk" width="370" height="294"></li>
+                    <li class="whatwedo-laptop"></li><img src="./images/box3.jpg" alt="touchpad with color screen" width="370" height="294">
                     </li>
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="team">
             <div class="container">
-                <section class="team">
-                    <h2>Nasz zespół</h2>
-                    <ul>
-                        <li><img src="./images/img1.jpg" alt="white man in glasses" width="270" height="260">
-                            <h3>John Doe</h3>
-                            <p>Product Designer</p>
+                <h2 class="our-team">Nasz zespół</h2>
+                    <ul class="ourteam-pic">
+                        <li>
+                          <figure>
+                            <img src="./images/img1.jpg" alt="white man in glasses" width="270" height="260">
+                              <figurecaption>
+                                <div>John Doe</div>
+                                <div>Product Designer </div>
+                              </figurecaption>  
+                          <figure>                     
                         </li>
-                        <li><img src="./images/img2.jpg" alt="white woman in glasses" width="270" height="260">
-                            <h3>John Doe</h3>
-                            <p>Frontend Developer</p>
+                        <li>
+                          <figure>
+                            <img src="./images/img2.jpg" alt="white woman in glasses" width="270" height="260">
+                            <figurecaption>
+                              <div>John Doe</div>
+                              <div>Frontend Developer</div>
+                            </figurecaption>
+                          <figure>
+                        </li>     
+                        <li>
+                          <figure>
+                            <figurecaption>
+                            <img src="./images/img3.jpg" alt="white man" width="270" height="260">
+                             <div>John Doe</div>
+                             <div>Marketing</div>
+                            </figurecaption>
+                          <figure>
                         </li>
-                        <li><img src="./images/img3.jpg" alt="white man" width="270" height="260">
-                            <h3>John Doe</h3>
-                            <p>Marketing</p>
-                        </li>
-                        <li><img src="./images/img4.jpg" alt="white man in glasses" width="270" height="260">
-                            <h3>John Doe</h3>
-                            <p>UI Designer</p>
+                        <li>
+                           <figure>
+                            <figurecaption>
+                            <img src="./images/img4.jpg" alt="white man in glasses" width="270" height="260">
+                            <div>John Doe</div>
+                            <div>UI Designer</div>
+                           </figurecaption>
+                          <figure>
                         </li>
                     </ul>
-                </section>
-            </div>
+                </div>
         </section>
     </main>
+    <footer class="footer">
     <div class="container">
-        <footer class="footer">
-            <ul>
-                <li><a class="logo" href="./index.html"><span class="logo">Web</span><span
-                            class="logo-footer">Studio</span></a>
-                </li>
-                <address>
+        <a class="logo" href="./index.html"><span class="logo">Web</span><span class="logo-footer">Studio</span></a>
+            <address>
+        <ul>  
                     <li><a class="adress" href=" https://goo.gl/maps/ok91espDjPrYdTkS9"> m.stołeczne Warszawa, Aleje
                             Jerozolimskie 21
                         </a>
                     </li>
                     <li><a class="contact-footer" href=" mailto:info@example.com">info@example.com</a></li>
                     <li><a class="contact-footer" href="tel:+48111111111">+48111111111</a></li>
-            </ul>
-            </address>
+        </ul>
+        </address>
     </div>
     </footer>
 </body>
