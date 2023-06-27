@@ -41,7 +41,14 @@
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  gap: 50 px;
+  justify-content: space-between;
+  font-family: "Roboto";
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.14;
+  font-weight: 500px;
+  letter-spacing: 0.02em;
 }
 
 .body {
@@ -82,7 +89,7 @@
 
 .layout {
   display: flex;
-  flex-direction: column;
+  width: 100%;
 }
 
 .hero {
@@ -140,6 +147,9 @@
   gap: 30px;
 }
 
+.figure {
+  background-color: white;
+}
 .team {
   color: #212121;
   font-weight: 700;
@@ -204,7 +214,8 @@ a {
 
 .second-page {
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
+  list-style: none;
 }
 
 .nav-link:hover,
@@ -273,9 +284,27 @@ a {
   background-color: var(--color-global);
 }
 
+.subpage {
+  display: flex;
+  align-items: center;
+  margin-top: 132px;
+  margin-bottom: 56px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 30px;
+  list-style: none;
+}
+.figcaption {
+  margin-top: 20 px;
+  margin-bottom: 30px;
+}
 .buttons-portfolio {
   display: flex;
   list-style: none;
+  gap: 8px;
 }
 
 .footer {
@@ -295,16 +324,6 @@ a {
   height: 31 px;
   left: 215 px;
   top: 2157 px;
-}
-
-.contact {
-  font-family: "Roboto";
-  color: #757575;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.14;
-  font-weight: 500px;
-  letter-spacing: 0, 02em;
 }
 
 .contact-footer {
@@ -327,4 +346,5 @@ a {
   font-weight: 400px;
   letter-spacing: 0, 03em;
   font-style: normal;
+  list-style: none;
 }
