@@ -6,46 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>homework2</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
 </head>
+    <body>
     <header class="header">
+        <nav class="nav">
         <div class="container header_container">
             <div class="header_left-side">
-                <a class="logo" href="./index.html"><span class="logo-highlight">Web</span>Studio</a>
-                <nav class="nav">
-                    <ul class="nav-header">
+                <a class="logo link" href="./index.html">
+                    Web<span class="logo-header">Studio</span></a>
+                    <ul class="nav-list list">
                         <li>
-                            <a class="nav-link" href="#">Agencja</a>
+                            <a class="nav-link link" href="/index.html">Studio</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">Kontakt</a>
+                            <a class="nav-link link" href="">Contacts</a>
                         </li>
                     </ul>
                 </nav>
-                <div class="header_right-side">
-                <ul class="contact">
-                        <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-                    </div>
-                </ul>
             </div>
+            <address class="adress"> 
+            <div class="header_right-side">
+          <ul class="list">
+            <li><a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="address-link link" href="tel:+11000111111">+11 (000) 111 111</a></li>
+          </ul>
+        </div>
+        </div>
     </header>
-        <section class="subpage">
+        <section class="buttons">
             <div class="container">
                     <ul class="buttons-portfolio">
-                        <li><button type="button" class="buttons-style">Wszystkie</button></li>
-                        <li><button type="button" class="buttons-style">Strony</button></li>
-                        <li><button type="button" class="buttons-style">Aplikacje</button></li>
-                        <li><button type="button" class="buttons-style">Dizajn</button></li>
+                        <li><button type="button" class="buttons-style">All</button></li>
+                        <li><button type="button" class="buttons-style">Web Sites</button></li>
+                        <li><button type="button" class="buttons-style">App</button></li>
+                        <li><button type="button" class="buttons-style">Design</button></li>
                         <li><button type="button" class="buttons-style">Marketing</button></li>
                     </ul>
             </div>
@@ -55,82 +60,84 @@
                 <ul class="grid">
                     <li class="grid-list"> 
                        <figure class="grid-list_item">
-                            <img src="./images2/img1.jpg" alt="web page" width="370" height="294">
+                            <img src="./images/portfolio/img1.jpg" 
+                            alt="interface screen" 
+                            width="360" 
+                            height="300">
                            <figcaption>
-                            <h2>Technocrack</h2>
-                            <p>Strona internetowa</p>
-                           <figcaption> 
+                            <h2>Banking App Interface Concept</h2>
+                            <p>App</p>
+                           </figcaption> 
                        </figure>
                     </li>   
                     <li class="grid-list">
                         <figure class="grid-list_item">
-                            <img src="./images2/img2.jpg" alt="basketball players" width="370" height="294"></li>
+                            <img src="./images/portfolio/img2.jpg" alt="qr code payment" width="360" height="300">
                             <figcaption>
-                              <h2>Grafika New Orlean vs Golden Star</h2>
-                              <p>Dizajn</p>
+                              <h2>Cashless Payment</h2>
+                              <p>Marketing</p>
                             </figcaption>
                         </figure>
                     </li>    
                     <li class="grid-list">
                         <figure class="grid-list_item">
-                            <img src="images2/img3.jpg" alt="restaurant logo" width="370" height="294"></li>
+                            <img src="./images/portfolio/img3.jpg" alt="laptop and smartphone screen" width="360" height="300">
                           <figcaption>
-                            <h2>Restauracja Seafood </h2>
-                            <p>Aplikacja</p>
+                            <h2>Meditation App</h2>
+                            <p>App</p>
                           </figcaption>
                         </figure>
                     </li>
                     <li class="grid-list">
                        <figure class="grid-list_item">
-                        <img src="./images2/img4.jpg" alt="headphones" width="370" height="294"></li>
+                        <img src="./images/portfolio/img4.jpg" alt="hand driving a car" width="360" height="300">
                          <figcaption>
-                          <h2>Projekt Prime</h2>
+                          <h2>Taxi Service</h2>
                           <p>Marketing</p>
                          </figcaption>
                       </figure>
                     </li>
                     <li class="grid-list">
                       <figure class="grid-list_item">
-                        <img src="./images2/img5.jpg" alt="paper boxes" width="370" height="294"></li>
+                        <img src="./images/portfolio/img5.jpg" alt="smartphone screen in purple" width="360" height="300">
                         <figcaption>
-                           <h2>Projekt Boxes</h2>
-                           <p>Aplikacja</p>
+                           <h2>Screen Illustrations</h2>
+                           <p>Design</p>
                         </figcaption>
                       </figure>
                     </li>
                     <li class="grid-list">
                         <figure class="grid-list_item">
-                            <img src="./images2/img6.jpg" alt="laptop screen" width="370" height="294"></li>
+                            <img src="./images/portfolio/img6.jpg" alt="happy girl using a smartphone" width="360" height="300">
                            <figcaption>
-                             <h2>Inspiration has no borders</h2>
-                             <p>Strona internetowa</p>
+                             <h2>Online Courses</h2>
+                             <p>Marketing</p>
                            </figcaption>
                         </figure>
                     </li>   
                     <li class="grid-list">
                         <figure class="grid-list_item">
-                           <img src="./images2/img7.jpg" alt="newspaper pages" width="370" height="294"></li>
+                           <img src="./images/portfolio/img7.jpg" alt="layout of a webpage" width="360" height="300">
                           <figcaption>
-                            <h2>Magazyn Limited Edition </h2>
-                            <p>Dizajn</p>
+                            <h2>Instagram Stories Concept</h2>
+                            <p>Design</p>
                           </figcaption>
                         </figure>
                     </li>    
                     <li class="grid-list">
                         <figure class="grid-list_item">
-                          <img src="./images2/img8.jpg" alt="tag label" width="370" height="294"></li>
-                           <figcaption>
-                            <h2>Projekt Lab</h2>
-                            <p>Marketing</p>
+                          <img src="./images/portfolio/img8.jpg" alt="woman holding groceries in the park" width="360" height="300">
+                            <h2>Organic Food</h2>
+                            <p>Web Site</p>
                            </figcaption>
                         </figure>
                     </li>    
                     <li class="grid-list">
                         <figure class="grid-list_item">
-                         <img src="./images2/img9.jpg" alt="working on the laptop" width="370" height="294"></li>
+                         <img src="./images/portfolio/img9.jpg" alt="hand pouring coffee to the cup" width="360" height="300">
                           <figcaption>
-                            <h2>Growing Business</h2>
-                            <p>Aplikacja</p>
+                            <h2>Fresh Coffee</h2>
+                            <p>Web Site</p>
                           </figcaption>
                         </figure>
                     </li>    
@@ -138,22 +145,15 @@
            </div>
         </section>
     </main>
+    <footer class="footer">
     <div class="container">
-        <footer class="footer">
-            <ul>
-                <li><a class="logo" href="./index.html"><span class="logo">Web</span><span
-                            class="logo-footer">Studio</span></a>
-                </li>
-                <address>
-                    <li><a class="adress" href=" https://goo.gl/maps/ok91espDjPrYdTkS9"> m.stołeczne Warszawa, Aleje
-                            Jerozolimskie 21
-                        </a>
-                    </li>
-                    <li><a class="contact" href=" mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="contact" href="tel:+48111111111">+48111111111</a></li>
-            </ul>
-            </address>
-        </footer>
-</body>
-
+        <a class="logo link" href="./index.html">
+        Web<span class="logo-footer">Studio</span></a>
+      <p class="text-footer">
+        Increase the flow of customers and sales for your business with digital
+        marketing &amp; growth solutions.
+      </p>
+    </div>
+    </footer>
+  </body>
 </html>
