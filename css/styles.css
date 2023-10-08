@@ -75,7 +75,10 @@ img {
   color: var(--header-color);
   text-decoration: none;
 }
-
+.menu {
+  display: flex;
+  gap: 40px;
+}
 .list:hover,
 .list:focus {
   color: var(--button-color);
@@ -94,6 +97,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--header-color);
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -113,6 +117,10 @@ img {
 }
 .address {
   font-style: normal;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 .framework {
   background-color: var(--header-color);
