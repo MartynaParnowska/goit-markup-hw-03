@@ -186,6 +186,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   background-color: var(--cloud-color);
+  margin-bottom: 72px;
 }
 .people {
   font-weight: 500;
@@ -197,8 +198,12 @@ img {
   color: var(--header-color);
   background-color: var(--cloud-color);
 }
+.people-list {
+  gap: 24px;
+}
 .member {
   background-color: var(--background-color);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-member {
   font-weight: 500;
@@ -206,6 +211,11 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--header-color);
+  text-align: center;
+  margin-bottom: 8px;
+}
+.name {
+  padding: 32px 0px;
 }
 .job {
   font-weight: 400;
@@ -213,6 +223,7 @@ img {
   color: var(--body-text);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .project-card {
   font-weight: 500;
@@ -312,6 +323,11 @@ img {
   list-style: none;
   gap: 24px;
 }
+.whatwedo-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
 .text-footer {
   font-weight: 400;
   font-size: 16px;
@@ -319,8 +335,9 @@ img {
   letter-spacing: 0.02em;
   color: var(--cloud-color);
 }
-.team.people {
+.team-people {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 .span {
   color: var(--cloud-color);
