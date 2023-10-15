@@ -294,6 +294,7 @@ img {
 }
 .buttons-portfolio {
   display: flex;
+  justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
 }
@@ -309,9 +310,15 @@ img {
 .grid-list {
   flex-flow: column wrap;
 }
-.figcaption {
-  margin-top: 20 px;
-  margin-bottom: 30px;
+.grid-link {
+}
+.grid-li {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.work {
+  margin-bottom: 8px;
 }
 .footer {
   background: var(--header-color);
