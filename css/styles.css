@@ -206,7 +206,7 @@ img {
 .member {
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100%-72px) / 4);
+  width: calc((100%-72px) / 4);
 }
 .team-member {
   font-weight: 500;
@@ -297,6 +297,7 @@ img {
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
+  list-style: none;
 }
 .grid {
   display: flex;
@@ -310,8 +311,7 @@ img {
 .grid-list {
   flex-flow: column wrap;
 }
-.grid-link {
-}
+
 .grid-li {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
@@ -319,6 +319,10 @@ img {
 }
 .work {
   margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  list-style: 24px;
+  text-decoration: none;
 }
 .footer {
   background: var(--header-color);
