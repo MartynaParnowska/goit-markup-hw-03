@@ -29,7 +29,6 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: center;
 }
 .nav {
   display: flex;
@@ -47,17 +46,8 @@ img {
 }
 .header-container {
   display: flex;
-  justify-content: space-between;
-}
-.header_left-side {
-  display: flex;
   align-items: center;
 }
-.header_right-side {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -67,12 +57,35 @@ img {
   text-transform: uppercase;
   color: var(--button-text);
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-header {
   color: var(--header-color);
   text-decoration: none;
 }
-
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-text);
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--cloud-color);
+  text-decoration: none;
+  text-transform: uppercase;
+}
 .list:hover,
 .list:focus {
   color: var(--button-color);
@@ -80,6 +93,7 @@ img {
 .list {
   list-style: none;
   display: flex;
+  padding: 24px 0;
 }
 .link {
   text-decoration: none;
@@ -174,7 +188,7 @@ img {
   padding-top: 0;
 }
 .whatwedo-laptop {
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 .team.people {
   background-color: var(--cloud-color);
@@ -328,20 +342,7 @@ img {
   background: var(--header-color);
   padding: 100px 0;
 }
-.logo {
-  display: inline-block;
-  margin-bottom: 16px;
-}
-.logo-footer {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: var(--cloud-color);
-  text-decoration: none;
-  text-transform: uppercase;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -351,16 +352,16 @@ img {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
 }
 .lorem-list {
   display: flex;
   list-style: none;
   gap: 24px;
-  margin: 0;
-  padding-left: 0;
 }
 .lorem-elements {
-  flex-basis: calc((100% -72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .whatwedo-list {
   display: flex;
