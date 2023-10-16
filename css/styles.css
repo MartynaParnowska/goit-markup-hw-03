@@ -167,6 +167,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--header-color);
   text-align: left;
+  margin-bottom: 8px;
 }
 .values {
   font-size: 16px;
@@ -213,14 +214,13 @@ img {
   text-transform: capitalize;
   color: var(--header-color);
   background-color: var(--cloud-color);
-}
-.people-list {
   gap: 24px;
 }
+
 .member {
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .team-member {
   font-weight: 500;
