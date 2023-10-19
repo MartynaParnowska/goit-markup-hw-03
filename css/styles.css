@@ -271,7 +271,7 @@ img {
   background-color: var(--cloud-color);
   color: var(--button-text);
   border: 1px solid var(--cornflower);
-  padding: 12 px 24px;
+  padding: 12px 24px;
   border-radius: 4px;
 }
 
@@ -316,11 +316,10 @@ img {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24 px;
+  column-gap: 24px;
   row-gap: 48px;
   list-style: none;
-  width: 100%;
-  padding: 96 px 0 120px 0;
+  padding: 96px 0 120px 0;
 }
 .grid-list {
   flex-flow: column wrap;
@@ -335,7 +334,7 @@ img {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
-  list-style: 24px;
+  line-height: 24px;
   text-decoration: none;
 }
 .footer {
