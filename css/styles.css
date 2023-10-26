@@ -190,7 +190,7 @@ img {
 .whatwedo-laptop {
   flex-basis: calc((100% - 48px) / 3);
 }
-.team.people {
+.team-people {
   background-color: var(--cloud-color);
 }
 .team {
